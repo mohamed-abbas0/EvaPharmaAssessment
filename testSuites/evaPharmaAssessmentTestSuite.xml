@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="evaPharmaAssessmentTestSuite">
+    <groups>
+        <run>
+            <include name="eva_assessment"/>
+        </run>
+    </groups>
+    <test name="EvaPharmaAssessment">
+        <classes>
+            <class name="TestNG.EvaPharmaAssessmentTest"/>
+        </classes>
+    </test>
+</suite>
